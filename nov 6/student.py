@@ -1,3 +1,4 @@
+
 student = {
     "name": "Nayana",
     "roll_number": "41",
@@ -5,7 +6,9 @@ student = {
     "department": "MCA",
     "semester": "1 st"
 }
-student["total_mark"] = 80 
+print("\n student list:\n",student)
+student["total_mark"] = 80
+print("\n \n student list updated with adding totalmark:\n",student)
 
 if student["total_mark"] >= 90:
     student["grade"] = "A"
@@ -19,10 +22,10 @@ elif student["total_mark"] >= 50:
     student["grade"] = "P"
 else:
     student["grade"] = "F"
-print(student)
+print("\n \n student list updated with adding grade:\n",student)
 
-print()
+
 
 del student["roll_number"]
 
-print(student)
+print("\n \n student list by removing delete roll number:\n",student)
