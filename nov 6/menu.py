@@ -1,5 +1,5 @@
 list1=[]
-newlist=[]
+
 n=int(input("enter the range of number:"))
 for i in range(1,n+1):
     a=int(input("enter values:"))
@@ -19,6 +19,7 @@ while True:
     elif choice ==2:
         print("ascending order list",sorted(list1))
     elif choice ==3:
+        newlist=[]
         for i in list1:
             if i%2==0:
                 newlist.append(i)
