@@ -7,7 +7,8 @@ student = {
     "semester": "1 st"
 }
 print("\n student list:\n",student)
-student["total_mark"] = 80
+total_marks=int(input("\nEnter the total marks;"))
+student["total_mark"] =total_marks 
 print("\n \n student list updated with adding totalmark:\n",student)
 
 if student["total_mark"] >= 90:
